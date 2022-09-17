@@ -20,7 +20,7 @@ function BasicExample({ currentPage, handlePageChange }) {
         <Navbar.Toggle className='outHeader' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className='aboutHeader' id="basic-navbar-nav">
           <Nav className='homeAndAboutContainer'>
-            <Nav.Link id='homeNav' href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} >Homee</Nav.Link>
+            <Nav.Link id='homeNav' href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} >Home</Nav.Link>
             <Nav.Link className= 'aboutHeader'  href="#menu"
           onClick={() => handlePageChange('Menu')}
           >Menu</Nav.Link>
